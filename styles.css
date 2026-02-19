@@ -28,7 +28,9 @@
 
 .card-top {
    /* TODO: Add part of your solution here */
-
+    position: absolute;
+      top: 100px;
+      left: 150px;
 }
 
 .card-bottom {
