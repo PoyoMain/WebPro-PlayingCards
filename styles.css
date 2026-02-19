@@ -1,8 +1,14 @@
+:root {
+    --background-color1: rgb(173, 217, 255);
+    --background-color2: rgb(191, 181, 255);
+}
+
 .table {
    width: 400px;
    height: 300px;
 
    /* TODO: Add part of your solution here */
+   background: linear-gradient(to bottom, var(--background-color1), var(--background-color2));
 }
 
 .card-red {
